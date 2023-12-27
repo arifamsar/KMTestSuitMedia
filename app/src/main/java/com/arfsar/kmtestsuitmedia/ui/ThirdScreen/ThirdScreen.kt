@@ -19,8 +19,6 @@ class ThirdScreen : AppCompatActivity() {
         ViewModelFactory.getInstance(this)
     }
 
-    private lateinit var swipeRefreshLayout: SwipeRefreshLayout
-
     private val mAdapter = UserListAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
