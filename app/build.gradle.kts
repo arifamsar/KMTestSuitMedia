@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("com.google.devtools.ksp")
 }
 
 android {
@@ -62,9 +61,6 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.8.2")
 
     implementation("androidx.paging:paging-runtime-ktx:3.2.1")
-    implementation("androidx.room:room-ktx:2.6.1")
-    implementation("androidx.room:room-paging:2.6.1")
-    ksp("androidx.room:room-compiler:2.6.1")
 
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
